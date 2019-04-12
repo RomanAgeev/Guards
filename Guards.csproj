@@ -5,8 +5,13 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <PackageId>Guards</PackageId>
     <VersionPrefix>1.0.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
+    <Authors>Roman Ageev</Authors>
+    <Owners>Roman Ageev</Owners>
+    <Title>Guards</Title>
+    <Description>Simple contracts for dotnet method parameters</Description>
   </PropertyGroup>
 
 </Project>
