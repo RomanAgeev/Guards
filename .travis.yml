@@ -12,7 +12,7 @@ deploy:
   script: dotnet nuget push ./bin/Release/Guards.*.nupkg -k $MYGET_API_KEY -s https://www.myget.org/F/romanageev-ci/api/v2/package
   on:
     tags: true
-    condition: $TRAVIS_TAG =~ ^(\d+\.)?(\d+\.)?(\*|\d+)$
+    condition: $TRAVIS_TAG =~ -release$
 env:
   global:
     secure: BN5yZIwjbtF6WSapJKOjMdmhthU42qrOInK5iaeQBORMg5oun0ZCGQ70jHHb4KXW56v+EdCFOUFnW3YzoLcc0z4yMtPFllYJBTvp3n6MGAuVeQy/5nCVECo5NMxQB3yYgYY/e166DzrEHggDZ+T/SC7N+VNopX4gxydmj6YEvKJVhDjPwViC4fc5FhJmf3T7sYzIBsWm7nZh0B0zf774bq55OXWEnzX3itKM/7pVrqNF2vTYOzcGUsoRGoaJv2ssAoWhQWPTkl1TwnVhT905sm1mA8c8+kr2WKV6oMld98FKT/CVrGKR0sIv8Mvg8vzLzEQ3540lh8erytdjuHzWh6RDAAW0+HUM3ZRZpRJoJVWV5N3Ji2CgtP9GUQNdO7g+FbDOHkANozBv4vZA/UTVUM0QvqClfiRKkedRU6oFSTthUTMjD1MBsICbVDuUYe0uV9gro6pT9NHvuaQmJDjSGzkXpJecuU1bvN+EM4c07LtJc51Dq3SVbScIx0cNpkkP0AD6PTBzh21rTFIK+VZpkP2p9FCvj68brp7q1+Sck71Ukq311V8qHXKwQMpcfvmCFz+HoSXD/s7/APtZJj0Xzb8p+kX/FB1MwnjMN1SVg64toc+86gv9ZO0sCEOqox/UlUo6vw6NCsVlY6efOO+4gFs27KQqydw3YoEVj+XlzoI=
