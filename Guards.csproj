@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Guards</PackageId>
+    <PackageId>RA_Guards</PackageId>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <VersionSuffix></VersionSuffix>
+    <VersionSuffix>release</VersionSuffix>
     <Authors>Roman Ageev</Authors>
     <Owners>Roman Ageev</Owners>
     <Title>Guards</Title>
