@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+os: linux
+dist: xenial
+dotnet: 2.1.4
+script:
+  - dotnet build -c Release
+
+
